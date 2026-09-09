@@ -14,9 +14,9 @@ Buildings closest to the Msimbazi River flood first and worst when the rains com
 
 ## 4. Where Each Dataset Comes From
 
-- River Centerline: OpenStreetMap via Geofabrik Tanzania — download.geofabrik.de/africa/tanzania.html — Format: .osm.pbf (672 MB) or .shp.zip (1.8 GB) for the full Tanzania extract; negligible once clipped to Tandale.
-- Building Footprints: OpenStreetMap via Geofabrik Tanzania — download.geofabrik.de/africa/tanzania.html — Format: .osm.pbf (672 MB) or .shp.zip (1.8 GB) for the full Tanzania extract; a few MB after clipping to Tandale.
-- Ward Boundary: NBS 2022 PHC Ward Shapefiles — nbs.go.tz/statistics/topic/gis — Format: Shapefile (.zip). Exact size: 58.01 MB.
+- River Centerline: OpenStreetMap via Geofabrik Tanzania — [download.geofabrik.de/africa/tanzania.html](download.geofabrik.de/africa/tanzania.html) — Format: .osm.pbf (672 MB) or .shp.zip (1.8 GB) for the full Tanzania extract; negligible once clipped to Tandale.
+- Building Footprints: OpenStreetMap via Geofabrik Tanzania — [download.geofabrik.de/africa/tanzania.html](download.geofabrik.de/africa/tanzania.html)  — Format: .osm.pbf (672 MB) or .shp.zip (1.8 GB) for the full Tanzania extract; a few MB after clipping to Tandale.
+- Ward Boundary: NBS 2022 PHC Ward Shapefiles — [nbs.go.tz/statistics/topic/gis](nbs.go.tz/statistics/topic/gis) — Format: Shapefile (.zip). Exact size: 58.01 MB.
 
 ## 5. What I Will Build
 An interactive dashboard where a field officer switches between three river-distance bands — 100m, 200m, and 500m — and gets back a ranked, exportable list of residential buildings inside the selected zone: building ID, rough location, distance from river.

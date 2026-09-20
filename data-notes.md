@@ -23,6 +23,11 @@
 - Extracted: 14/09/2026
 - 7,629 features, Polygon (MultiPolygon)
 - Columns: extensive OSM building tags (building, operator:type, roof:shape, roof:material, capacity:persons, etc.)
+- Heavy nulls across specialized tags; only `building` itself is consistently populated, with values including residential, public, yes, commercial, and combined tags (e.g. "commercial;residential")
+- Coverage: visually dense and consistent across the ward, including directly along the river edge. One open, building-free patch in the ward interior confirmed as a playground — not a residential coverage gap.
+- Residential classification will require filtering the `building` column, excluding non-residential values (school, hospital, commercial, mosque, church, public), rather than relying on a single clean "residential" tag
+- CRS: EPSG:32737 (WGS 84 / UTM Zone 37S)
+
 
 
 
@@ -59,7 +64,3 @@ All three layers (Tandale ward boundary, Ng'ombe River, building footprints) ori
 
 **Where the analysis-ready file lives**
 `data/processed/` — contains `Tandale_Boundary.gpkg`, `Tandale_river_32737.gpkg`, `Tandale_Buildings_32737.gpkg`, all clipped to Tandale and reprojected to EPSG:32737.
-- Heavy nulls across specialized tags; only `building` itself is consistently populated, with values including residential, public, yes, commercial, and combined tags (e.g. "commercial;residential")
-- Coverage: visually dense and consistent across the ward, including directly along the river edge. One open, building-free patch in the ward interior confirmed as a playground — not a residential coverage gap.
-- Residential classification will require filtering the `building` column, excluding non-residential values (school, hospital, commercial, mosque, church, public), rather than relying on a single clean "residential" tag
-- CRS: EPSG:32737 (WGS 84 / UTM Zone 37S)

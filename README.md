@@ -10,4 +10,4 @@ Which residential buildings in Tandale Ward fall within 100m, 200m, or 500m of t
 - Core Datasets: OpenStreetMap via Geofabrik Tanzania, NBS 2022 PHC Ward Shapefiles
 - Cohort: GeoDev Lab Africa, Cohort One (2026)
 
-Full data specifications, exact file sizes, and sourcing are documented in [project-brief.md](project-brief.md).
+Full data specifications, exact file sizes, and sourcing are documented in [docs/01-project-brief.md](docs/01-project-brief.md).

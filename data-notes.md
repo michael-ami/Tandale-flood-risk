@@ -28,7 +28,16 @@
 
 
 
-## Week 3: CRS, Reprojection, and Quality Checks
+
+
+
+
+
+
+
+
+
+## CRS, Reprojection, and Quality Checks
 
 **CRS chosen and why**
 Working CRS: EPSG:32737 (WGS 84 / UTM Zone 37S). Chosen because Tandale Ward sits within UTM Zone 37S's coverage, it's a projected system in metres (required for accurate distance buffers and area calculation), and it uses the modern WGS84 datum, matching the OSM source data natively rather than the older Arc 1960 datum used in some Tanzanian government products.

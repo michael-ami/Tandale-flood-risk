@@ -17,3 +17,7 @@
 **What surprised me:** The 500m band doesn't just capture "many" buildings, it captures over two-thirds of the entire ward. Only the southwest corner sits outside it. This means "500m flood-risk zone" is close to describing most of Tandale, not a narrow strip along the water, given how the Ng'ombe runs along the ward's northern and eastern edges rather than through its centre.
 
 **What data I still need:** The river geometry gaps flagged in Week 2/3 (unmapped breaks in the northeast) mean the buffer along those stretches is incomplete, some buildings near those gaps may be under-classified. I also still need a way to confirm which buildings in the "residential" category are genuinely occupied homes versus vacant or non-residential structures still carrying a generic OSM tag, since that affects how the counts above should be read for public-health prioritisation.
+
+
+
+See tandale_flood_risk_map.png for the visual result ![Flood risk map](tandale_flood_risk_map.png) 

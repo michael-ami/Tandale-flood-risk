@@ -20,3 +20,5 @@ All three layers (Tandale ward boundary, Ng'ombe River, building footprints) ori
 
 **Where the analysis-ready file lives**
 `data/processed/` — contains `Tandale_Boundary.gpkg`, `Tandale_river_32737.gpkg`, `Tandale_Buildings_32737.gpkg`, all clipped to Tandale and reprojected to EPSG:32737.
+
+These files are committed to this repository in [data/processed](../data/processed/). The raw downloads (the Geofabrik extract and the NBS national ward file) are not committed because of their size, which runs from hundreds of MB to about 2 GB. Their sources and download links are in [01-project-brief.md](01-project-brief.md).

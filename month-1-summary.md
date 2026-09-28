@@ -16,6 +16,8 @@
 
 **What surprised me:** The 500m band doesn't just capture "many" buildings, it captures over two-thirds of the entire ward. Only the southwest corner sits outside it. This means "500m flood-risk zone" is close to describing most of Tandale, not a narrow strip along the water, given how the Ng'ombe runs along the ward's northern and eastern edges rather than through its centre.
 
+A second surprise came from the row-count check itself: my first QGIS run of the distance join returned 7,677 buildings instead of the expected 7,629, a discrepancy that traced back to the river layer's 2 separate line segments. Buildings tied equidistant between both segments were being duplicated by the "Join attributes by nearest" tool. Dissolving the river into a single feature before rejoining fixed it, and the corrected run matched the expected 7,629 exactly. This is a good example of why Step 4's row-count check matters: it caught a real processing error that would otherwise have silently inflated every band's count.
+
 **What data I still need:** The river geometry gaps flagged in Week 2/3 (unmapped breaks in the northeast) mean the buffer along those stretches is incomplete, some buildings near those gaps may be under-classified. I also still need a way to confirm which buildings in the "residential" category are genuinely occupied homes versus vacant or non-residential structures still carrying a generic OSM tag, since that affects how the counts above should be read for public-health prioritisation.
 
 

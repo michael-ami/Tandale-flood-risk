@@ -1,7 +1,7 @@
 # Project Brief: Flood-Risk Exposure in Tandale Ward
 
 ## 1. The Question
-Which residential buildings in Tandale Ward fall within 100m, 200m, or 500m of the Ng'ombe River?
+Which residential buildings in Tandale Ward fall within 100m, 200m, or 300m of the Ng'ombe River?
 
 ## 2. Why It Matters
 Buildings closest to the Ng'ombe River flood first and worst when the rains come. A distance-based flood-risk zone gives disaster-management and public-health teams a simple, defensible way to rank which residential clusters need inspection, sanitation outreach, or evacuation planning before the next heavy rainfall.
@@ -19,4 +19,4 @@ Buildings closest to the Ng'ombe River flood first and worst when the rains come
 - Ward Boundary: NBS 2022 PHC Ward Shapefiles — [nbs.go.tz/statistics/topic/gis](https://nbs.go.tz/statistics/topic/gis) — Format: Shapefile (.zip). Exact size: 58.01 MB.
 
 ## 5. What I Will Build
-An interactive dashboard where a field officer switches between three river-distance bands — 100m, 200m, and 500m — and gets back a ranked, exportable list of residential buildings inside the selected zone: building ID, rough location, distance from river.
+An interactive dashboard where a field officer switches between three river-distance bands — 100m, 200m, and 300m — and gets back a ranked, exportable list of residential buildings inside the selected zone: building ID, rough location, distance from river.

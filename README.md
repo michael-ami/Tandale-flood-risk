@@ -2,7 +2,7 @@
 A community-focused GIS project identifying flood-exposed residential buildings along the Ng'ombe River in Tandale Ward, Dar es Salaam, Tanzania.
 
 ## The Question
-Which residential buildings in Tandale Ward fall within 100m, 200m, or 500m of the Ng'ombe River?
+Which residential buildings in Tandale Ward fall within 100m, 200m, or 300m of the Ng'ombe River?
 
 ## Overview
 - Location: Tandale Ward, Dar es Salaam, Tanzania

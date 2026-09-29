@@ -20,4 +20,4 @@
 
 **What data I still need:** The river geometry gaps flagged in Week 2/3 (unmapped breaks in the northeast) mean the buffer along those stretches is incomplete; some buildings near those gaps may be under-classified. I also still need a way to confirm which buildings in the "residential" category are genuinely occupied homes versus vacant or non-residential structures still carrying a generic OSM tag, since that affects how these counts should be read for public-health prioritisation.
 
-See ![Tandale flood risk map](tandale_flood_risk_map.png)
+![Tandale flood risk map](tandale_flood_risk_map.png)

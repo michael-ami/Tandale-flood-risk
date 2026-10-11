@@ -28,3 +28,4 @@ Analysis-ready GeoPackages are committed at [data/processed/](data/processed/): 
 
 ## Month 2: Development environment and early python 
 - Week 5: Set up Python, VS code and the terminal. hello.py runs.
+- Week 6: set up the project with uv and added pandas. check.py prints the pandas version.

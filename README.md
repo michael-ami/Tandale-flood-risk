@@ -23,3 +23,8 @@ Full data specifications, exact file sizes, and sourcing are documented in [docs
 
 ## Data
 Analysis-ready GeoPackages are committed at [data/processed/](data/processed/): ward boundary, river, and building footprints, all clipped to Tandale and reprojected to EPSG:32737. Raw downloads are not committed due to file size (hundreds of MB to ~2 GB); sources and links are in the Week 1 brief.
+
+
+
+## Month 2: Development environment and early python 
+- Week 5: Set up Python, VS code and the terminal. hello.py runs.

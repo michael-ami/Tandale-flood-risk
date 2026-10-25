@@ -30,3 +30,4 @@ Analysis-ready GeoPackages are committed at [data/processed/](data/processed/): 
 - Week 5: Set up Python, VS code and the terminal. hello.py runs.
 - Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
 - Week 7: analyse.py reads wards.csv, converts each count and classifies each band as large or small.
+- Week 8: inspect_data.py summarises distance to river and building footprint in my Tandale buildings data.
